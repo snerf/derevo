@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="ru">
+<head>
+<meta name="robots" content="{if $page.noindex}none{else}all{/if}" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="{$page.description}" />
+<meta name="keywords" content="{$page.keywords}" />
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+<title></title>
+<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+<script src="../js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="../js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="../js/amount_cart.js"></script>
+</head>
+
+<body>
+<div id="wrap">
+	<div class="site-wrap">
+        <div id="header">
+            <div class="logo"><a href="#"></a></div>
+            <div class="shop-cart">
+                <div class="cart-title">МОЯ КОРЗИНА</div>
+                <div class="info">
+                    <strong>Товаров в корзине на</strong>
+                    <div class="price"><span>0 000 000</span> руб.</div>
+                    <a href="#">Оформить заказ &raquo;</a>
+                </div>
+            </div>
+            <a href="#" class="feedback">ОБРАТНЫЙ ЗВОНОК</a>
+            <div class="phone">
+            	<span class="title">КОНТАКТЫ:</span>8 (495) <span>505-27-85</span>
+            </div>
+        </div>
+        <div class="wrap-menu">
+        	<ul class="upm">
+            	<li><a href="#"><span>Главная</span></a></li>
+                <li class="active"><a href="#"><span>О нас</span></a></li>
+                <li><a href="#"><span>Доставка</span></a></li>
+                <li><a href="#"><span>Контакты</span></a></li>
+                <li><a href="#"><span>Реквизиты</span></a></li>
+                <li><a href="#"><span>Схема проезда</span></a></li>
+                <li><a href="#"><span>Полезная информация</span></a></li>
+            </ul>
+        </div>
+        <div class="slider">
+            <div id="scrollup">
+              <div class="slides" style="background: url(../images/sl_pic1.jpg) 50% 0 no-repeat; display: block;"></div>
+              <div class="slides" style="background: url(../images/sl_pic2.jpg) 50% 0 no-repeat;"></div>
+              <div class="slides" style="background: url(../images/sl_pic3.jpg) 50% 0 no-repeat;"></div>
+              <div class="slides" style="background: url(../images/sl_pic4.jpg) 50% 0 no-repeat;"></div>
+              <div class="slides" style="background: url(../images/sl_pic5.jpg) 50% 0 no-repeat;"></div>
+            </div>
+            <span class="arr_left"></span>
+            <span class="arr_right"></span>
+        </div>
+        <div class="wrap-search">
+        	<div class="search">
+            	<form action="/search" method="get">
+                    <input name="search" type="text" class="txt" onblur="this.value=this.value==''?'Поиск по сайту':this.value" onfocus="this.value=this.value=='Поиск по сайту'?'':this.value;" value="Поиск по сайту" />
+                    <input type="submit" class="sub" value="" />
+                </form>
+            </div>
+        <div class="clear"></div>
+        </div>
+        <div class="cont-box">
+        	<div class="left-block">
+            	<ul class="lmenu">
+                	<li><a href="#">Блок хаус "Сосна, ель"</a></li>
+                    <li><a href="#">Брусок обрезной</a></li>
+                    <li><a href="#">Вагонка "Сосна, ель"</a></li>
+                    <li><a href="#">Вагонка штиль "Сосна, ель"</a></li>
+                    <li class="active"><a href="#">Вагонка штиль "Ангарская сосна"</a></li>
+                    <li><a href="#">Вагонка штиль (лиственница)</a></li>
+                    <li><a href="#">Евровагонка "Сосна, ель"</a></li>
+                    <li><a href="#">Европол "Сосна, ель"</a></li>
+                    <li><a href="#">Имитация бруса "Сосна, ель"</a></li>
+                    <li><a href="#">Имитация бруса "Ангар. сосна"</a></li>
+                    <li><a href="#">Имитация бруса (лиственница)</a></li>
+                    <li><a href="#">Обрезная доска "Сосна, ель"</a></li>
+                    <li><a href="#">Обрезной брус "Сосна, ель"</a></li>
+                    <li><a href="#">Доска сухая строганная</a></li>
+                    <li><a href="#">Четверть</a></li>
+                    <li><a href="#">Половая доска (лиственница)</a></li>
+                </ul>
+            </div>
+            <div class="main-block">
+            	<div class="cart-name">Состояние корзины</div>
+                <div class="cart-title">Ваша корзина содержит 2 товаров</div>
+                <div class="wrap-cart">
+                	<table class="cart-tab">
+                    	<tr>
+                        	<th>Товар</th>
+                            <th>Описание</th>
+                            <th>Ед-ца измерения</th>
+                            <th>Дост.</th>
+                            <th>Цена за ед.</th>
+                            <th>Кол-во</th>
+                            <th>Итого:</th>
+                        </tr>
+                        <tr>
+                        	<td class="img"><img src="../images/thumb1.jpg" alt="" /></td>
+                            <td class="name"><a href="#">Вагонка толщина 20мм ширина 150мм длина 6м</a></td>
+                            <td class="izm">куб.м</td>
+                            <td class="dost"><img src="../images/gal.jpg" alt="" /></td>
+                            <td class="price">8 500 руб. -Тх</td>
+                            <td class="amount">
+                            	<a href="#" class="delete"></a>
+                                <span class="col">1</span>
+                                <span class="plus_and_min">
+                                	<span class="plus"></span>
+                                    <span class="minus"></span>
+                                </span>
+                            </td>
+                            <td class="total">8 500 руб.</td>
+                        </tr>
+                        <tr>
+                        	<td class="img"><img src="../images/thumb2.jpg" alt="" /></td>
+                            <td class="name"><a href="#">Блок-хаус толщина 45мм ширина 185мм длина 6м</a></td>
+                            <td class="izm">1 м2</td>
+                            <td class="dost"><img src="../images/gal.jpg" alt="" /></td>
+                            <td class="price">520 руб. -Тх</td>
+                            <td class="amount">
+                            	<a href="#" class="delete"></a>
+                                <span class="col">1</span>
+                                <span class="plus_and_min">
+                                	<span class="plus"></span>
+                                    <span class="minus"></span>
+                                </span>
+                            </td>
+                            <td class="total">520 руб.</td>
+                        </tr>
+                    </table>
+                    <div class="main-total">Итого товаров:  9 020 руб.</div>
+                    <div class="continue"><a href="#">далее>></a></div>
+                </div>
+            </div>
+        <div class="clear"></div>
+        </div>
+    </div>
+<div class="f-blank"></div>
+</div>
+<div id="footer">
+	<ul class="bmenu">
+		<li><a href="#">Доставка</a></li>
+		<li><a href="#">О нас</a></li>
+		<li><a href="#">Контакты</a></li>
+		<li><a href="#">Схема</a></li>
+		<li><a href="#">проезда</a></li>
+	</ul>
+	<div class="copyright">DEREVO GROUP ® 2013</div>
+	<div class="count"><img src="../images/count.png" alt="" /></div>
+</div>
+</body>
+</html>
